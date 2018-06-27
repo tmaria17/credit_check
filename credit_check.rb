@@ -1,5 +1,5 @@
 
-card_number = "4929735477250543".chars
+card_number = "4024007136512380".chars
 #puts card_number
 
  double_every_other= card_number.map.each_with_index do |number, index|
@@ -17,3 +17,9 @@ else
 end
 end
 p number_2
+
+if number_2.sum%10==0
+  puts "The number is valid!"
+else
+  puts "The number is invalid!"
+end
